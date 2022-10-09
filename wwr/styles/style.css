@@ -1,0 +1,101 @@
+/* html selctors */
+body{
+    background-color: whitesmoke;
+}
+
+footer{
+    background-color: aquamarine;
+    color: black;
+}
+
+footer a{
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+h4{
+    color: black;
+}
+
+header{
+    background-color: aquamarine;
+
+}
+
+nav a{
+    background-color: aquamarine;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover{
+    color: black;
+}
+
+/* class selectors */
+.book{
+    background-color: #8de4ff;
+    color: blue;
+    text-decoration: none;
+}
+.book:hover{
+    background-color: rgb(35, 123, 205);
+    color: black;
+}
+
+.button-box{
+    text-align: center;
+}
+
+.home-title{
+    color: black;
+}
+.icon{
+    width: auto;
+}
+
+.join{
+    background-color: #8de4ff;
+    color: blue;
+    text-decoration: none;
+}
+.join:hover{
+    background-color: rgb(35, 123, 205);
+    color: black;
+}
+
+.logo{
+    width: 80px;
+}
+.msg{
+    background-color: #8de4ff;
+    color: black;
+    text-align: center;
+}
+
+
+/* id selectors */
+#content {
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+#hero img{
+    width: 100%;
+}
+
+#background {
+    background-color: #8de4ff;
+    border: 1px solid black;
+    height: 725px;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #fca6c9;
+}
+
+h1{
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+
+header {
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    text-align: center;
+    width: 200px
+}
+
+p {
+    color: white;
+    font-size: 14pt;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    width: 520px;
+}
+
+#list{
+    margin: 0 auto;
+    width: 375px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+img{
+    width: 200px;
+}
+.quote{
+    color: white;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25pt;
+    width: 275px;
+}
+
+footer{
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    text-align: center;
+    width: 325px;
+}

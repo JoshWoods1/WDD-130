@@ -6,6 +6,8 @@ body{
 footer{
     background-color: aquamarine;
     color: black;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer a{
@@ -26,6 +28,10 @@ header{
 
 }
 
+main{
+    margin: 0 auto;
+    text-align: center;
+}
 nav a{
     background-color: aquamarine;
     color: blue;

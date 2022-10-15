@@ -1,165 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Oswald&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Oswald&display=swap");
 
 /* html selctors */
-body{
-    background-color: whitesmoke;
-    margin: 0;
-    font-family: 'Oswald', sans-serif;;
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
 }
 
-footer{
-    background-color: aquamarine;
-    color: black; 
-    margin-top: 200px;
-    padding: 25px 50px;
-    text-align: center;
+footer {
+  background-color: aquamarine;
+  color: black;
+  margin-top: 200px;
+  padding: 25px 50px;
+  text-align: center;
 }
 
-footer a{
-    color: blue;
-    text-decoration: none;
+footer a {
+  color: blue;
+  text-decoration: none;
 }
 
-footer a:hover{
-    color: purple;
-    text-decoration: underline;
+footer a:hover {
+  color: purple;
+  text-decoration: underline;
 }
 
 footer .social img {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 }
 
-h4{
-    color: black;
+h4 {
+  color: black;
 }
 
-header{
-    background-color: aquamarine;
-
+header {
+  background-color: aquamarine;
 }
 
-main{
-    margin: 0 auto;
-    text-align: center;
+main {
+  margin: 0 auto;
+  text-align: center;
 }
 
-main section img{
-    box-sizing: border-box;
+main section img {
+  box-sizing: border-box;
 }
-nav a{
-    background-color: aquamarine;
-    color: blue;
-    padding: 20px;
-    text-decoration: none;
-    text-align: center;
+nav a {
+  background-color: aquamarine;
+  color: blue;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
 }
 
-nav a:hover{
-    color: black;
+nav a:hover {
+  color: black;
 }
 
 /* class selectors */
-.book{
-    background-color: #8de4ff;
-    border-radius: 5px;
-    color: blue;
-    font-size: 18px;
-    margin-top: 50px;
-    padding: 15px 30px;
-    text-decoration: none;
-}
-.book:hover{
-    background-color: rgb(35, 123, 205);
-    color: black;
+.book {
+  background-color: #8de4ff;
+  border-radius: 5px;
+  color: blue;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
 
-.button-box{
-    text-align: center;
+.book:hover {
+  background-color: rgb(35, 123, 205);
+  color: black;
+}
+
+.button-box {
+  text-align: center;
 }
 
 .card-img {
-    border: solid aquamarine;
+  border: solid aquamarine;
 }
 .camping-card {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
-.home-title{
-    color: black;
-    font-size: 2em;
-    font-family: Abyssinica SIL, serif;
-    margin-top: 10px;
+.home-title {
+  color: black;
+  font-size: 2em;
+  font-family: Abyssinica SIL, serif;
+  margin-top: 10px;
 }
 
-.icon{
-    padding-top: 10px;
-    width: auto;
+.icon {
+  padding-top: 10px;
+  width: auto;
 }
 
-.join{
-    background-color: #8de4ff;
-    border-radius: 5px;
-    color: blue;
-    font-size: 18px;
-    margin-top: 50px;
-    padding: 15px 30px;
-    text-decoration: none;
+.join {
+  background-color: #8de4ff;
+  border-radius: 5px;
+  color: blue;
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
-.join:hover{
-    background-color: rgb(35, 123, 205);
-    color: black;
-}
-
-.logo{
-    width: 80px;
-}
-.msg{
-    background-color: #8de4ff;
-    color: black;
-    list-style: 1.5em;
-    padding: 35px;
-    text-align: center;
+.join:hover {
+  background-color: rgb(35, 123, 205);
+  color: black;
 }
 
-.msg p{
-    font-size: .8em;
-    padding-bottom: 15px;
+.logo {
+  width: 80px;
+}
+.msg {
+  background-color: #8de4ff;
+  color: black;
+  list-style: 1.5em;
+  padding: 35px;
+  text-align: center;
+}
+
+.msg p {
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 .rapdis-card {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
 .rivers-card {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
 /* id selectors */
 #background {
-    background-color: #8de4ff;
-    border: 1px solid black;
-    height: 725px;
+  background-color: #8de4ff;
+  border: 1px solid black;
+  height: 725px;
 }
 
 #content {
-    border: 1px solid black;
-    margin: 0 auto;
-    max-width: 1600px;
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
-#hero-msg h1, #hero-msg h4{
-    text-align: center;
+#hero-msg h1,
+#hero-msg h4 {
+  text-align: center;
 }
 
-#hero img{
-    width: 100%;
+#hero img {
+  width: 100%;
 }
 
 #logo_link {
-    padding-top: 5px;
+  padding-top: 5px;
 }

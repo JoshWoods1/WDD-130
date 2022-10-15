@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Oswald&display=swap');
+
+
 /* html selctors */
 body{
     background-color: whitesmoke;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;;
 }
 
 footer{
     background-color: aquamarine;
     color: black;
-    margin: 0 auto;
+    margin-top: 200px;
+    padding: 25px 50px;
     text-align: center;
 }
 
@@ -19,6 +25,15 @@ footer a:hover{
     color: purple;
     text-decoration: underline;
 }
+
+footer .social img {
+    padding-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
 h4{
     color: black;
 }
@@ -32,9 +47,14 @@ main{
     margin: 0 auto;
     text-align: center;
 }
+
+main section img{
+    box-sizing: border-box;
+}
 nav a{
     background-color: aquamarine;
     color: blue;
+    padding: 20px;
     text-decoration: none;
     text-align: center;
 }
@@ -46,7 +66,11 @@ nav a:hover{
 /* class selectors */
 .book{
     background-color: #8de4ff;
+    border-radius: 5px;
     color: blue;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 30px;
     text-decoration: none;
 }
 .book:hover{
@@ -58,16 +82,32 @@ nav a:hover{
     text-align: center;
 }
 
+.card-img {
+    border: solid aquamarine;
+}
+.camping-card {
+    margin: 200px 0;
+}
+
 .home-title{
     color: black;
+    font-size: 2em;
+    font-family: Abyssinica SIL, serif;
+    margin-top: 10px;
 }
+
 .icon{
+    padding-top: 10px;
     width: auto;
 }
 
 .join{
     background-color: #8de4ff;
+    border-radius: 5px;
     color: blue;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 30px;
     text-decoration: none;
 }
 .join:hover{
@@ -81,11 +121,31 @@ nav a:hover{
 .msg{
     background-color: #8de4ff;
     color: black;
+    list-style: 1.5em;
+    padding: 35px;
     text-align: center;
 }
 
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rapdis-card {
+    margin: 200px 0;
+}
+
+.rivers-card {
+    margin: 200px 0;
+}
 
 /* id selectors */
+#background {
+    background-color: #8de4ff;
+    border: 1px solid black;
+    height: 725px;
+}
+
 #content {
     border: 1px solid black;
     margin: 0 auto;
@@ -100,8 +160,6 @@ nav a:hover{
     width: 100%;
 }
 
-#background {
-    background-color: #8de4ff;
-    border: 1px solid black;
-    height: 725px;
+#logo_link {
+    padding-top: 5px;
 }

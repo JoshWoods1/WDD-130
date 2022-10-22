@@ -1,0 +1,13 @@
+article {
+    background-color: green;
+}
+
+section {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 1fr ;
+}
+
+#article1 {
+    grid-column: 1/3;
+}

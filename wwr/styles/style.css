@@ -107,6 +107,9 @@ nav a:hover {
   padding: 5px;
   text-align: center;
 }
+.faq-hero h2 {
+  font-size: 50pt;
+}
 .home-title {
   color: white;
   font-size: 2em;
@@ -175,10 +178,14 @@ nav a:hover {
 .questions{
   margin: 5px 75px;
 }
-.questions section{
+.questions h1 {
+  background-color: #8de4ff;
+}
+.questions p{
+  background-color: whitesmoke;
   font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
-
+  padding: 10px;
 }
 /* id selectors */
 #background {

@@ -1,0 +1,38 @@
+/* html selectors */
+body div {
+    margin: 10px 400px;
+}
+body p{
+    color: #3f5b8b;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+header img{
+    justify-items: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+footer{
+    background-color: #3f5b8b ;
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 15%;
+    align-items: center;
+    justify-items: center;
+}
+footer p{
+    color: white;
+    font-size: 150%;
+}
+
+/* class selectors */
+
+/* ID selectors */
+

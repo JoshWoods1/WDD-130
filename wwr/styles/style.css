@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Oswald&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Permanent+Marker&display=swap');
 
 /* html selctors */
 body {
   background-color: whitesmoke;
   margin: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Permanent Marker", sans-serif;
 }
 
 footer {
-  background-color: aquamarine;
+  background-color: #F2E7D5;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
@@ -30,16 +30,22 @@ footer .social img {
   padding-top: 15px;
 }
 
+h1 {
+  font-family: "Permanent Marker", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
 h2 {
   margin: 0;
 }
 
 h4 {
   color: black;
+  font-size: 2em;
+  text-align: center;
 }
 
 header {
-  background-color: aquamarine;
+  background-color: #F2E7D5;
   display: grid;
   grid-template-columns: 150px auto;
 }
@@ -57,8 +63,8 @@ nav {
   justify-content: space-around;
 }
 nav a {
-  background-color: aquamarine;
-  color: blue;
+  background-color: #F2E7D5;
+  color: #393E46;
   padding: 20px;
   text-decoration: none;
   text-align: center;
@@ -69,9 +75,9 @@ nav a:hover {
 }
 /* class selectors */
 .book {
-  background-color: #8de4ff;
+  background-color: #393E46;
   border-radius: 5px;
-  color: blue;
+  color: #F2E7D5;
   font-size: 18px;
   margin-top: 50px;
   padding: 15px 30px;
@@ -88,7 +94,7 @@ nav a:hover {
 }
 
 .card-img {
-  border: 10px solid aquamarine;
+  border: 10px solid #F2E7D5;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
   width: 100%;
@@ -112,8 +118,8 @@ nav a:hover {
 }
 .home-title {
   color: white;
-  font-size: 2em;
-  font-family: Abyssinica SIL, serif;
+  font-size: 3em;
+  font-family: "Kalam", serif;
   margin-top: 10px;
 }
 .home-grid {
@@ -126,9 +132,9 @@ nav a:hover {
 }
 
 .join {
-  background-color: #8de4ff;
+  background-color: white;
   border-radius: 5px;
-  color: blue;
+  color: #6f7364;
   font-size: 18px;
   margin-top: 50px;
   padding: 15px 30px;
@@ -149,7 +155,7 @@ nav a:hover {
   width: 100%;
 }
 .msg {
-  background-color: #8de4ff;
+  background-color: #393E46;
   box-shadow: 5px 5px 10px #6f7364;
   color: black;
   grid-column: 6/10;
@@ -179,7 +185,7 @@ nav a:hover {
   margin: 5px 75px;
 }
 .questions h1 {
-  background-color: #8de4ff;
+  background-color: #6D9886;
 }
 .questions section{
   background-color: whitesmoke;
@@ -189,7 +195,7 @@ nav a:hover {
 }
 /* id selectors */
 #background {
-  background-color: #8de4ff;
+  background-color: #6D9886;
   border: 1px solid black;
   grid-column: 1/11;
   grid-row: 4/9;

@@ -102,7 +102,7 @@ ul li {
     grid-row: 2/3;
     text-align: center;
 }
-.burgers2 ul{
+.burgers2 li{
     color: #ffe609;
     font-family: 'Rubik', sans-serif;
     font-size: .75em;
@@ -123,7 +123,7 @@ ul li {
     justify-items: center;
     text-align: center;
 }
-.sides2 ul{
+.sides2 li{
     color: #ffe609;
     font-family: 'Rubik', sans-serif;
     font-size: .75em;
